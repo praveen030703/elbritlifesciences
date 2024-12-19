@@ -1,5 +1,4 @@
 import "../globals.css";
-import "../responsive.css";
 
 export default function Blog() {
   return (

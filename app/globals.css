@@ -573,3 +573,364 @@ p {
   width: 75px;
   border-radius: 0px 10px 10px 0px;
 }
+
+/* responsive */
+/* responsiveness styles*/
+
+@media screen and (max-width: 485px) {
+  .main-content {
+    width: 100%;
+    height: 1220px;
+  }
+
+  main .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav .logo {
+    width: 216px;
+    height: 64px;
+    top: -9px;
+    left: 172px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 1.5rem;
+  }
+
+  .main-content .main-text h1 {
+    color: #003569;
+    font-family: Jost;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-align: center;
+  }
+
+  main .content .TabletBoxImg {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: 10rem !important;
+    margin-left: 1rem !important;
+  }
+
+  main .content .info1 {
+    width: 400px;
+    height: 250px;
+    top: 790.42px !important;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    margin-left: 7.5rem !important;
+  }
+
+  main .content .info2 {
+    font-family: Jost;
+    position: absolute;
+    top: 36rem !important;
+    left: 8rem !important;
+  }
+
+  /*card*/
+
+  .card-main {
+    width: 490px !important;
+    height: 1566px !important;
+    top: 960px;
+    padding: 0px 52px 0px 52px;
+    gap: 0px;
+    border-radius: 40px;
+    opacity: 0px;
+    background-color: #17414f;
+    margin-left: 1rem;
+    margin-top: 4rem;
+  }
+
+  .card-main .card-sub .card-mcont1 {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    margin-left: 9rem !important;
+  }
+
+  .card-main .card-sub .card-mcont2 {
+    display: flex;
+    flex-direction: column !important;
+    margin-left: 8rem !important;
+  }
+
+  .card-main .card-mcont1 .card-txt {
+    margin-left: -1.5rem !important;
+  }
+
+  /*Ingredients*/
+
+  .ingredients-main {
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    margin-top: 5rem;
+  }
+
+  .ingredients-sub1 {
+    display: flex;
+    flex-direction: column !important;
+    margin-left: 1.5rem !important;
+    gap: 20px;
+  }
+
+  .ingredient-cont1 h3 {
+    top: 128px !important;
+    left: 15px;
+    font-size: 18px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .ingredients-sub2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 1.5rem !important;
+    gap: 20px;
+  }
+
+  .ing-text h1 {
+    margin-top: 2rem;
+  }
+
+  .ing-text h3 {
+    margin-top: 5rem !important;
+  }
+  /*footer*/
+
+  .footer-main .footer-info1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 25px;
+    margin-left: 1rem !important;
+  }
+
+  .footer-main .footer-info2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 5rem !important;
+    font-family: Jost;
+    gap: 20px;
+  }
+
+  .footer-main .footer-info2 img {
+    width: 300px;
+  }
+  .footer-main .footer-info2 p {
+    margin-left: -3rem;
+  }
+
+  .footer-final {
+    display: flex;
+    font-family: Jost;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    width: 100%;
+    height: 1220px;
+    margin-left: 2rem;
+  }
+
+  main .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav .logo {
+    width: 216px;
+    height: 64px;
+    top: -9px;
+    left: 172px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 1.5rem;
+  }
+
+  .main-content .main-text h1 {
+    color: #003569;
+    font-family: Jost;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-align: center;
+  }
+
+  main .content .TabletBoxImg {
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 8.5rem;
+  }
+
+  main .content .info1 {
+    width: 400px;
+    height: 250px;
+    top: 740.42px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    margin-left: 15.5rem;
+  }
+
+  main .content .info2 {
+    font-family: Jost;
+    position: absolute;
+    top: 30rem;
+    left: 17rem;
+  }
+
+  /*card*/
+
+  .card-main {
+    width: 785px;
+    height: 516px;
+    top: 960px;
+    gap: 0px;
+    border-radius: 40px;
+    opacity: 0px;
+    background-color: #17414f;
+    margin-left: -0.5rem;
+    margin-top: 4rem;
+  }
+
+  .card-main .card-sub .card-mcont1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -32rem;
+  }
+
+  .card-main .card-sub .card-mcont2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: -33rem;
+    justify-content: center;
+    margin-top: -4rem;
+  }
+
+  .card-main .card-sub .card-mcont1 .card-cont .cardImg {
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 50px;
+  }
+
+  .card-main .card-sub .card-mcont1 .card-cont .cardImg img {
+    width: 30px;
+    height: 40px;
+    margin-top: 1.5rem;
+  }
+
+  .card-main .card-sub .card-mcont2 .card-cont .cardImg {
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    margin-left: 1rem;
+  }
+
+  .card-main .card-sub .card-mcont2 .card-cont .cardImg img {
+    width: 30px;
+    height: 40px;
+    margin-top: 1.5rem;
+  }
+
+  .card-txt h2 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .card-txt p {
+    font-size: 10px;
+  }
+  /*Ingredients*/
+
+  .ingredients-main {
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    margin-top: 5rem;
+  }
+
+  .ingredients-sub1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+    gap: 20px;
+  }
+
+  .ingredient-cont1 h3 {
+    top: 118px;
+    left: 15px;
+    font-size: 18px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .ingredients-sub2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    gap: 20px;
+  }
+
+  /*footer*/
+
+  .footer-main .footer-info1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 25px;
+    margin-left: 10rem;
+  }
+
+  .footer-main .footer-info2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 13rem;
+    font-family: Jost;
+    gap: 20px;
+  }
+
+  .footer-main .footer-info2 img {
+    width: 300px;
+  }
+  .footer-main .footer-info2 p {
+    margin-left: -3rem;
+  }
+
+  .footer-final {
+    display: flex;
+    font-family: Jost;
+    margin-left: 2rem;
+  }
+}
