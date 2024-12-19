@@ -1,4 +1,3 @@
-import "../responsive.css";
 import "../globals.css";
 export default function card() {
   return (
