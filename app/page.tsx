@@ -4,6 +4,8 @@ import Footer from "./Footer/page";
 import Card from "./Card/page";
 import Ingredients from "./Ingrediants/page";
 import Blog from "./Blog/page";
+import "./responsive.css";
+import "./globals.css";
 
 export default function Home() {
   return (
