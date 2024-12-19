@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "./Navbar/page";
 import Content from "./Content/page";
 import Footer from "./Footer/page";
