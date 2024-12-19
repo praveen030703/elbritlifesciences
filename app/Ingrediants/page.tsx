@@ -1,5 +1,3 @@
-import "../globals.css";
-
 export default function Ingredients() {
   return (
     <div className="ingredients-main">

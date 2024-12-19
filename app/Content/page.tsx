@@ -1,5 +1,3 @@
-import "../globals.css";
-
 export default function Content() {
   return (
     <main className="flex">

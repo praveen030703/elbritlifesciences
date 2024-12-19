@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-nav .logo {
+/*nav .logo {
   width: 316px;
   height: 64px;
   top: -9px;
@@ -228,6 +228,7 @@ footer {
 
 /* card component */
 
+/*
 .card-main {
   width: 1324px;
   height: 586px;
@@ -333,7 +334,7 @@ p {
 }
 
 /*Ingredients Component*/
-
+/*
 .ingredients-main {
   width: 100%;
   height: 593px;
@@ -442,7 +443,7 @@ p {
   margin-top: 125px;
 }
 
-/* Blog component*/
+/* Blog component
 
 .blog-text {
   text-align: center;
@@ -575,7 +576,7 @@ p {
 }
 
 /* responsive */
-/* responsiveness styles*/
+/* responsiveness styles
 
 @media screen and (max-width: 485px) {
   .main-content {
@@ -635,7 +636,7 @@ p {
     left: 8rem !important;
   }
 
-  /*card*/
+  /*card
 
   .card-main {
     width: 490px !important;
@@ -667,7 +668,7 @@ p {
     margin-left: -1.5rem !important;
   }
 
-  /*Ingredients*/
+  /*Ingredients
 
   .ingredients-main {
     width: 100%;
@@ -707,7 +708,7 @@ p {
   .ing-text h3 {
     margin-top: 5rem !important;
   }
-  /*footer*/
+  /*footer
 
   .footer-main .footer-info1 {
     display: flex;
@@ -798,7 +799,7 @@ p {
     left: 17rem;
   }
 
-  /*card*/
+  /*card*
 
   .card-main {
     width: 785px;
@@ -868,7 +869,7 @@ p {
   .card-txt p {
     font-size: 10px;
   }
-  /*Ingredients*/
+  /*Ingredients
 
   .ingredients-main {
     width: 100%;
@@ -901,7 +902,7 @@ p {
     gap: 20px;
   }
 
-  /*footer*/
+  /*footer
 
   .footer-main .footer-info1 {
     display: flex;
