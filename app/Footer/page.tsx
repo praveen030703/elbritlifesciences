@@ -7,20 +7,20 @@ export default function Footer() {
       <div className="footer-main">
         <div className="footer-info1">
           <div className="phone">
-            <img src="/images/phone.png" className="Image" loading="lazy" />
+            <img src="/images/phone.png" alt="Image" loading="lazy" />
             <h3>
               Phone Number<br></br>+97431181843
             </h3>
           </div>
           <div className="email">
-            <img src="/images/email.png" className="Image" loading="lazy" />
+            <img src="/images/email.png" alt="Image" loading="lazy" />
             <h3>
               Email Address<br></br>Elbrithcqhr@gmail.com
             </h3>
             <h2></h2>
           </div>
           <div className="location">
-            <img src="/images/location.png" className="Image" loading="lazy" />
+            <img src="/images/location.png" alt="Image" loading="lazy" />
             <h3>
               Office location<br></br>Ambassador Street, Zone 61,
             </h3>
